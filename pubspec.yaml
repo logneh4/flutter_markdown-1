@@ -3,6 +3,7 @@ author: Flutter Authors <flutter-dev@googlegroups.com>
 description: A Markdown renderer for Flutter.
 homepage: https://github.com/flutter/flutter_markdown
 version: 0.6.14
+publish_to: none
 
 environment:
   sdk: ">=2.17.0 <4.0.0"
@@ -14,6 +15,7 @@ dependencies:
     sdk: flutter
   markdown:
     git: https://github.com/logneh4/markdown.git
+    
   meta: ^1.3.0
   path: ^1.8.0
 
