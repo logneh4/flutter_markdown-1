@@ -311,7 +311,7 @@ class _MarkdownWidgetState extends State<MarkdownWidget>
     final md.Document document = md.Document(
       blockSyntaxes: widget.blockSyntaxes,
       inlineSyntaxes: widget.inlineSyntaxes,
-      extensionSet: widget.extensionSet ?? md.ExtensionSet.gitHubFlavored,
+      extensionSet: md.ExtensionSet.ALFlavored,
       encodeHtml: false,
     );
 

@@ -11,7 +11,7 @@ environment:
 
 
 dependencies:
-  flutter:
+  flutter: 
     sdk: flutter
   markdown:
     git: https://github.com/logneh4/markdown.git
